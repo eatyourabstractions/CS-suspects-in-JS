@@ -21,16 +21,3 @@ const mergeSort = (myArr) => {
     return merge(left, right)
 
 }
-
-const compareArr = (a1, a2) =>{
-    if(a1.length != a2.length){
-        return "lengths are diff"
-    }
-
-    for (i = 0; i < a1.length; i++){
-        if(a1[i] != a2[i]){
-            return "no theyre not"
-        }
-    }
-    return "you made it"
-}
